@@ -1,0 +1,5 @@
+{"level":"error","message":"Update order status error: Order validation failed: orderStatus: `In Progress` is not a valid enum value for path `orderStatus`.","timestamp":"2025-04-13T10:05:40.237Z"}
+{"level":"error","message":"Get order by ID error: Cast to ObjectId failed for value \"67fb8b75cbe774eadcf9f26\" (type string) at path \"_id\" for model \"Order\"","timestamp":"2025-04-13T11:01:49.489Z"}
+{"level":"error","message":"Update order status error: Order validation failed: orderStatus: `WIP` is not a valid enum value for path `orderStatus`.","timestamp":"2025-04-13T11:02:30.799Z"}
+{"level":"error","message":"Update order status error: Order validation failed: orderStatus: `WIP` is not a valid enum value for path `orderStatus`.","timestamp":"2025-04-13T11:03:51.504Z"}
+{"level":"error","message":"Update order status error: Order validation failed: orderStatus: `WIP` is not a valid enum value for path `orderStatus`.","timestamp":"2025-04-13T11:03:55.108Z"}
