@@ -57,3 +57,5 @@
 {"level":"info","message":"PATCH /api/orders/67fb99715b60a2c7abdcbd8d/status","timestamp":"2025-04-13T11:04:42.784Z"}
 {"level":"info","message":"Order status updated: ORD20250413002 - WIP","timestamp":"2025-04-13T11:04:42.839Z"}
 {"level":"info","message":"POST /api/stations","timestamp":"2025-04-13T11:05:55.508Z"}
+{"level":"info","message":"POST /api/staff/register","timestamp":"2025-04-13T11:11:21.254Z"}
+{"level":"info","message":"New staff registered: alice@example.com","timestamp":"2025-04-13T11:11:21.419Z"}

@@ -3,14 +3,9 @@ require('dotenv').config();
 module.exports = {
     port: process.env.PORT || 3000,
     mongodb: {
-        uri: process.env.MONGODB_URI || 'mongodb://localhost:27017/workload-management',
-        options: {
-            useNewUrlParser: true,
-            useUnifiedTopology: true
-        }
-    },
+        uri: process.env.MONGODB_URI || 'mongodb://localhost:27017/workload-management'},
     jwt: {
-        secret: process.env.JWT_SECRET || 'your-secret-key',
+        secret: process.env.JWT_SECRET,
         expiresIn: '8h'
     },
     logging: {
@@ -20,4 +15,4 @@ module.exports = {
             combined: 'combined.log'
         }
     }
-}; 
+};
